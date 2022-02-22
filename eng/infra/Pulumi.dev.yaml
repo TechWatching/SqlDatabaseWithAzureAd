@@ -1,0 +1,6 @@
+config:
+  SqlDatabaseWithAzureAd:sqlAdAdmin: globalSqlAdmin@yourdomainname.com
+  SqlDatabaseWithAzureAd:sqlAdPassword:
+    secure: AAABAC8pygWg//uXu3Tij3KcfPFSOCZv0nwd9USb7KiHDRxTVzomq7BsSO/JtYjsJMo=
+  azure-native:location: WestEurope
+  pulumi:template: azure-csharp
