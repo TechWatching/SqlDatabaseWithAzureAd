@@ -33,7 +33,7 @@ Before executing the program you need to modify the `Pulumi.dev.yaml` configurat
 
 ```pwsh
 pulumi config set SqlDatabaseWithAzureAd:sqlAdAdmin changethisemail@yourtenant.com
-pulumi config --secret SqlDatabaseWithAzureAd:sqlAdPassword yoursecurePassword1234$
+pulumi config set --secret SqlDatabaseWithAzureAd:sqlAdPassword yoursecurePassword1234$
 ```
 
 ### Execute the Pulumi program
